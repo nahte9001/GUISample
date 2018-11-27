@@ -20,7 +20,7 @@ public class SamplePanel extends JPanel
 		this.appController = appController;
 		
 		colorButton = new JButton("I swear to god do not press it");
-		textLabel = new JLabel("Don't press it. The button is too hard and it will hurt your finger");
+		textLabel = new JLabel("Do NOT press it. I'm shaking with rage right now do not press it or i'll eat your skin I swear to god");
 		
 		setupPanel();
 		setupLayout();
@@ -57,7 +57,7 @@ public class SamplePanel extends JPanel
 		int blue = (int) (Math.random() * 256);
 		
 		this.setBackground(new Color(red, green, blue));
-		textLabel.setText("Red is: " + red + " Green is " + green + " Blue is: " + blue);
+		textLabel.setText("Red is: " + red + " Green is " + green + " Blue is: " + blue + "     Why'd you have to press it");
 	}
 	
 }
